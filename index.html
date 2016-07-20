@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tube Slider</title>	
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<script type="text/javascript" src="./js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="./js/app1.js"></script>
+</head>
+<body>
+	<header>
+		<h1>TUBE SLIDER</h1>
+	</header>
+	<section id="form-section" class="clearfix">
+		<form id="control-form">
+			<div class="form-group">
+				<label for="querytext">Search</label>
+				<input type="text" id="querytext"  name="querytext" autocomplete="off" required>
+			</div>
+			<div class="form-group">
+				<label for="duration">Duration</label>
+				<select id="duration">
+					<option value="any">Any</option>
+					<option value="short">~ < 4 minutes</option>
+					<option value="medium">~ > 4 minutes & < 20 minutes</option>
+					<option value="long"> > 20 minutes</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="type">Type</label>
+				<select id="type">
+					<option value="video">Video</option>
+					<option value="channel">Channel</option>
+					<option value="playlist">Playlist</option>					
+				</select>
+			</div>
+		</form>
+	</section>
+	<section id="slider-section" class="clearfix">
+		<div class="gallery-wrap">
+			<div class="gallery clearfix">
+				<ul class="gallery-list">
+					
+				</ul>
+				
+			</div>
+		</div>
+		<div class="gallery-controls">
+			   <div id="gallery__controls-next">
+			       <a href="#" class="next">Next</a>
+			   </div>
+		   </div>
+	</section>
+	
+	<p class="totop"> 
+	    <a href="#top">Back to top</a> 
+	</p>
+
+</body>
+</html>
